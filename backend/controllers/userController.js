@@ -80,7 +80,7 @@ const logoutUser = asyncHandler(async (req, res) => {
         expires: new Date(0)
     })
 
-    res.status(200).json({ messsage: 'logged out successfully' })
+    res.status(200).json({ message: 'logged out successfully' })
 })
 
 const updateUserProfile = asyncHandler(async (req, res) => {
