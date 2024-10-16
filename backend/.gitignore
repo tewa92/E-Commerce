@@ -2,3 +2,5 @@ node_modules
 .env
 meshi.txt
 postman.txt
+package-lock.json
+package.json
