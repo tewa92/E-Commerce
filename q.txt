@@ -1,7 +1,0 @@
-1, send to cloununiary
-2, backend return url
-3, display on fe
-4, when update url goes to db
-
-interview question on papal i express
-
