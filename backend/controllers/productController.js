@@ -1,5 +1,7 @@
 import asyncHandler from "../middleware/asyncHandler.js";
 import Product from "../models/productModel.js";
+
+
 const getProducts = asyncHandler(async (req, res) => {
     const pageSize = 8;
 

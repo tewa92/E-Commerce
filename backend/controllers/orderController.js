@@ -118,8 +118,6 @@ const getOrders = asyncHandler(async (req, res) => {
     res.json(orders);
 });
 
-// review or rating
-
 
 
 export {

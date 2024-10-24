@@ -19,7 +19,7 @@ const OrderListScreen = () => {
         <Table striped bordered hover responsive className="table-sm">
           <thead>
             <tr>
-              <th>ID</th>
+              <th>NAME</th>
               <th>USER</th>
               <th>DATE</th>
               <th>TOTAL</th>
@@ -31,7 +31,7 @@ const OrderListScreen = () => {
           <tbody>
             {orders.map((order) => (
               <tr key={order._id}>
-                <td>{order._id}</td>
+                <td>{order.orderItems[0].name}</td>
                 <td>{order.user && order.user.name}</td>
                 <td>{order.createdAt.substring(0, 10)}</td>
                 <td>${order.totalPrice}</td>
